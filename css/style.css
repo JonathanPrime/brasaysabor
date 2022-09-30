@@ -873,6 +873,14 @@ img {
   color: var(--palet-3);
 }
 
+.footer .credit a {
+  color: var(--palet-2);
+}
+
+.footer .credit a:hover {
+  color: var(--palet-1);
+}
+
 a:link {
   text-decoration: none
 }
