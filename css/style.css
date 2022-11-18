@@ -274,6 +274,12 @@ img {
   font-family: 'piercejamesonscript' !important;
 }
 
+.service {
+  background: var(--palet-2) url(../images/vectores/patron-2-dark.svg) repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 .service-box {
   display: -ms-grid;
   display: grid;
@@ -312,6 +318,7 @@ img {
   color: var(--palet-1);
   font-family: 'piercejamesonscript';
 }
+
 
 .service-box .box p {
   font-size: 2rem;
@@ -471,7 +478,7 @@ img {
 
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 220px;
+  max-width: 95%;
   margin: 1rem auto 1rem;
 }
 
@@ -588,17 +595,23 @@ img {
 /* end own about */
 
 .reviews {
-  background: url(../images/resource-maracas.png), var(--wood-2);
-  background-repeat: no-repeat;
+  background: var(--palet-2) url(../images/vectores/patron-2-dark.svg) repeat;
   background-size: contain;
-  background-position-x: right;
-  background-position-y: center;
+  background-position: center;
 }
 
 .heading .reviews-title {
   font-family: 'insaniburger';
   font-size: 6rem;
+  margin-top: -3rem;
   color: var(--black);
+}
+
+.heading .reviews-script {
+  text-align: center;
+  font-family: 'piercejamesonscript';
+  font-size: 8rem;
+  color: var(--palet-1);
 }
 
 .reviews .box-container {
@@ -623,8 +636,9 @@ img {
 
 .reviews .box-container .box h3 {
   font-size: 2rem;
+  font-family: 'insaniburger';
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--black);
 }
 
 .reviews .box-container .box p {
@@ -640,7 +654,7 @@ img {
 
 .reviews .box-container .box .stars i {
   font-size: 1.7rem;
-  color: var(--palet-2);
+  color: var(--palet-1);
 }
 
 .contact .row {
@@ -1247,6 +1261,11 @@ input.whats-input[type=text]:focus {
   .blogs .box-container .box .image {
     height: 32rem;
   }
+
+  .service, .reviews {
+    background-size: cover;
+  }
+
 
   .blogs .box-container {
     display: -ms-grid;
